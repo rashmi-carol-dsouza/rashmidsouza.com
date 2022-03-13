@@ -313,7 +313,7 @@ sub {
 
 .list--grid {
   display: grid; 
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
   /* grid-template-rows: 1fr 1fr;  */
   gap: 1em 1em; 
   grid-template-areas: 
@@ -329,8 +329,9 @@ sub {
   text-decoration: none;
 }
 
-.badge figcaption {
+.badge figcaption, .certificate figcaption {
   text-align: center;
+  font-size: 0.875rem;
 }
 
 .certificate figcaption {
